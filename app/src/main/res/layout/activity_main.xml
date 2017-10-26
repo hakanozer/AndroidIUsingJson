@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hakan.jsonusing.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="352dp"
+        android:layout_height="43dp"
+        android:onClick="btnCalis"
+        android:text="Uyarı Göster"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="452dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/txtUserPassword"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/txtUserName"
+        android:layout_width="354dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="Kullanıcı Adı"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginTop="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/button" />
+
+    <EditText
+        android:id="@+id/txtUserPassword"
+        android:layout_width="354dp"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="68dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/txtUserName"
+        android:layout_alignStart="@+id/txtUserName" />
+</RelativeLayout>
